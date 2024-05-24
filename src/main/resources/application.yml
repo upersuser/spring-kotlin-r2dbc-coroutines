@@ -1,0 +1,11 @@
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+  webflux:
+    base-path: "/api"
+
+  r2dbc:
+    url: r2dbc:postgresql://${DB_HOST:localhost}:5432/
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:password}
