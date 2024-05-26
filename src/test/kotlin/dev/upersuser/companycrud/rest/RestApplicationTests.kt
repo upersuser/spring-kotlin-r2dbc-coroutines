@@ -1,4 +1,4 @@
-package dev.upersuser.spring.rest
+package dev.upersuser.companycrud.rest
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

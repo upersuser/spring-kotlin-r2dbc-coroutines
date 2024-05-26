@@ -1,6 +1,6 @@
-package dev.upersuser.spring.rest.dto
+package dev.upersuser.companycrud.dto
 
-import dev.upersuser.spring.rest.model.Company
+import dev.upersuser.companycrud.model.Company
 
 
 data class CompanyResponse(

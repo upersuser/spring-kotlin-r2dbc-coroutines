@@ -1,6 +1,6 @@
-package dev.upersuser.spring.rest.repository
+package dev.upersuser.companycrud.repository
 
-import dev.upersuser.spring.rest.model.User
+import dev.upersuser.companycrud.model.User
 import kotlinx.coroutines.flow.Flow
 import org.springframework.data.r2dbc.repository.Query
 import org.springframework.data.repository.kotlin.CoroutineCrudRepository

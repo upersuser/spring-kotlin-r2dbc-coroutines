@@ -1,6 +1,6 @@
-package dev.upersuser.spring.rest.dto
+package dev.upersuser.companycrud.dto
 
-import dev.upersuser.spring.rest.model.User
+import dev.upersuser.companycrud.model.User
 
 data class UserRequest(
     val name: String,

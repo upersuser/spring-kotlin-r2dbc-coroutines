@@ -1,13 +1,11 @@
-package dev.upersuser.spring.rest.model
+package dev.upersuser.companycrud.model
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.relational.core.mapping.Table
 
-@Table("application.app_user")
-data class User(
+@Table("application.company")
+data class Company(
     @Id val id: Long? = null,
-    val email: String,
     val name: String,
-    val age: Int,
-    val companyId: Long
+    val address: String
 )

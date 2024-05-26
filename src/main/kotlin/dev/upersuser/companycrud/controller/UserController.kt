@@ -1,10 +1,9 @@
-package dev.upersuser.spring.rest.controller
+package dev.upersuser.companycrud.controller
 
-import dev.upersuser.spring.rest.dto.UserRequest
-import dev.upersuser.spring.rest.dto.UserResponse
-import dev.upersuser.spring.rest.service.UserService
+import dev.upersuser.companycrud.dto.UserRequest
+import dev.upersuser.companycrud.dto.UserResponse
+import dev.upersuser.companycrud.service.UserService
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.mapNotNull
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.DeleteMapping

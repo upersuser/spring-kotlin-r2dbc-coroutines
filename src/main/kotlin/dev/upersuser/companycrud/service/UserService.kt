@@ -1,7 +1,7 @@
-package dev.upersuser.spring.rest.service
+package dev.upersuser.companycrud.service
 
-import dev.upersuser.spring.rest.model.User
-import dev.upersuser.spring.rest.repository.UserRepository
+import dev.upersuser.companycrud.model.User
+import dev.upersuser.companycrud.repository.UserRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.firstOrNull
 import org.springframework.http.HttpStatus
